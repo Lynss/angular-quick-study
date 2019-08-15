@@ -1,0 +1,26 @@
+[debug] [2019-08-15T02:38:41.067Z] ----------------------------------------------------------------------
+[debug] [2019-08-15T02:38:41.069Z] Command:       /usr/local/Cellar/node/12.8.0/bin/node /usr/local/bin/firebase login --reauth
+[debug] [2019-08-15T02:38:41.069Z] CLI Version:   7.2.2
+[debug] [2019-08-15T02:38:41.069Z] Platform:      darwin
+[debug] [2019-08-15T02:38:41.069Z] Node Version:  v12.8.0
+[debug] [2019-08-15T02:38:41.070Z] Time:          Thu Aug 15 2019 10:38:41 GMT+0800 (China Standard Time)
+[debug] [2019-08-15T02:38:41.070Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=771908846&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2019-08-15T02:40:52.421Z] >>> HTTP REQUEST POST https://accounts.google.com/o/oauth2/token  
+
+[debug] [2019-08-15T02:42:10.800Z] Token Fetch Error: FirebaseError: Server Error. connect ETIMEDOUT 172.217.160.109:443
+    at Request._callback (/Users/lynss/.config/yarn/global/node_modules/firebase-tools/lib/api.js:30:31)
+    at self.callback (/Users/lynss/.config/yarn/global/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:203:13)
+    at Request.EventEmitter.emit (domain.js:476:20)
+    at Request.onRequestError (/Users/lynss/.config/yarn/global/node_modules/request/request.js:881:8)
+    at ClientRequest.emit (events.js:203:13)
+    at ClientRequest.EventEmitter.emit (domain.js:476:20)
+    at TLSSocket.socketErrorListener (_http_client.js:399:9)
+    at TLSSocket.emit (events.js:203:13)
+    at TLSSocket.EventEmitter.emit (domain.js:476:20)
